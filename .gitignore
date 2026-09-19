@@ -1,0 +1,29 @@
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ===== 密钥 / 环境变量（含真实账号，绝不提交）=====
+.env
+
+# ===== 二进制 / 大文件 =====
+*.exe
+
+# ===== 一次性排查脚本（本地调试用，不随仓库发布）=====
+diag_*.py
+step_*.py
+download_*.py
+inspect_*.py
+query_cherry.py
+
+# ===== 临时输出 / DSL 快照 / 调试产物 =====
+_sse_full.txt
+_test_result.txt
+_test_tools.txt
+q.sql
+backup-*.yml
+modified-*.yml
+
+# ===== 系统 =====
+.DS_Store
